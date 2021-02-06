@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(211, 129, 14);
+    margin: 0;
+}
+
+.week-days {    
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.week-days .today {
+    width: 30%;
+}
+
+.week-days .day {
+    flex-grow: 1;
+}
+
+.week-days .day:nth-child(2) {
+    background: rgb(197, 119, 10);;
+}
+
+.week-days .day:nth-child(3) {
+    background: rgb(184, 111, 9);;
+}
+
+.week-days .day:nth-child(4) {
+    background: rgb(161, 97, 6);;
+}
+
+.week-days .day:nth-child(5) {
+    background: rgb(143, 84, 3);;
+}
+
+.week-days .day:nth-child(6) {
+    background: rgb(119, 70, 1);;
+}
+
+.week-days .day:nth-child(7) {
+    background: rgb(110, 65, 1);;
+}
+
+.week-days .day:nth-child(8) {
+    background: rgb(94, 55, 0);;
+}
+
+.city-name {
+    position: relative;
+    margin: 10px 20px;
+}
+.city-name input {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 4px;
+    font-size: xx-large;
+    color: #fff;
+}
+
+.city-name span {
+    position: absolute;
+    color: #fff;
+    top: -10px;
+    left: 20px;
+    background: rgb(211, 129, 14);
+    padding: 0 20px;
+
+}
+
