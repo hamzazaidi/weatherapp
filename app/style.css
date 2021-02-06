@@ -10,10 +10,17 @@ body {
     font-size: 30px;
     text-align: center;
     color: rgb(247, 239, 193);
-    padding: 25px;
+    padding: 25px 0 0 0;
+    font-weight: 900;
 
 }
-.day-of-the-week{}
+.day-of-the-week{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(245, 236, 187);    
+    font-weight: 100;
+    padding: 20px 0;
+}
 .week-days {    
     display: flex;
     flex-direction: row;
