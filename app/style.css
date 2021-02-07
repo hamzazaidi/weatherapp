@@ -21,6 +21,31 @@ body {
     font-weight: 100;
     padding: 20px 0;
 }
+.degree{
+    font-size: 80px;
+    color: rgb(245, 236, 187);
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 80px 0 0 0;
+}
+.week-days .day .degree {
+    font-size: 40px;;
+    margin-top: 10px;
+}
+.condition{
+    text-align: center;
+    color: rgb(245, 236, 187);
+}
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+    justify-content: center;    
+}
+.icon {
+    text-align: center;
+}
 .week-days {    
     display: flex;
     flex-direction: row;

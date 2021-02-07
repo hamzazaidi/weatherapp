@@ -1,39 +1,75 @@
 <html>
-    <head>
-        <title>Weather Application</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="week-days">
-            <div class="today">
-                <div class="city">Philadelphia, US</div>
-                <div class="day-of-the-week">Today</div>
-            </div>
-            <div class="day">
-                <div class="day-of-the-week">Today</div>
-            </div>
-            <div class="day">
-                <div class="day-of-the-week">Sun</div>
-            </div>
-            <div class="day">
-                <div class="day-of-the-week">Mon</div>
-            </div>
-            <div class="day">
-                <div class="day-of-the-week">Tue</div>
-            </div>
-            <div class="day">
-                <div class="day-of-the-week">Wed</div>
-            </div>
-            <div class="day">
-                <div class="day-of-the-week">Thur</div>
-            </div>
-            <div class="day">
-                <div class="day-of-the-week">Fri</div>
+
+<head>
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wu-icons-style.css">
+</head>
+
+<body>
+    <div class="week-days">
+        <div class="today">
+            <div class="city">Philadelphia, US</div>
+            <div class="day-of-the-week">Today</div>
+            <div class="degree">6&deg;C</div>
+            <div class="condition">overcast cloud</div>
+        </div>
+        <div class="day">
+            <div class="day-of-the-week">Today</div>
+            <div class="icon-contianer">
+                <div class="icon">
+                    <i class="wu wu-white wu-64 wu-chanceflurries"></i>
+                </div>
+                <div class="degree">5&deg;C</div>
             </div>
         </div>
-        <div class="city-name">
-            <span>Enter your city</span>
-            <input type="text">            
+        <div class="day">
+            <div class="day-of-the-week">Sun</div>
+            <div class="icon">
+                <i class="wu wu-white wu-64 wu-sunny"></i>
+            </div>
+            <div class="degree">14&deg;C</div>
         </div>
-    </body>
+        <div class="day">
+            <div class="day-of-the-week">Mon</div>
+            <div class="icon">
+                <i class="wu wu-white wu-64 wu-chanceflurries"></i>
+            </div>
+            <div class="degree">15&deg;C</div>
+        </div>
+        <div class="day">
+            <div class="day-of-the-week">Tue</div>
+            <div class="icon">
+                <i class="wu wu-white wu-64 wu-sunny"></i>
+            </div>
+            <div class="degree">15&deg;C</div>
+        </div>
+        <div class="day">
+            <div class="day-of-the-week">Wed</div>
+            <div class="icon">
+                <i class="wu wu-white wu-64 wu-snow"></i>
+            </div>
+            <div class="degree">13&deg;C</div>
+        </div>
+        <div class="day">
+            <div class="day-of-the-week">Thur</div>
+            <div class="icon">
+                <i class="wu wu-white wu-64 wu-partlysunny"></i>
+            </div>
+            <div class="degree">-2&deg;C</div>
+        </div>
+        <div class="day">
+            <div class="day-of-the-week">Fri</div>
+            <div class="icon">
+                <i class="wu wu-white wu-64 wu-cloudy"></i>
+            </div>
+            <div class="degree">-3&deg;C</div>
+        </div>
+    </div>
+    <div class="city-name">
+        <span>Enter your city</span>
+        <input type="text">
+    </div>
+</body>
+
 </html>
